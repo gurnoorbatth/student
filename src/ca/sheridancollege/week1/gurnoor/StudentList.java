@@ -10,5 +10,11 @@ package ca.sheridancollege.week1.gurnoor;
  * @author Karan Bath
  */
 public class StudentList {
-    
+    private String name;
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
 }
