@@ -16,5 +16,6 @@ public class StudentList {
     }
     public void setName(String name){
         this.name=name;
+        system.out.println("hello");
     }
 }
